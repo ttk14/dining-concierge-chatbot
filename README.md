@@ -21,3 +21,13 @@ An AI-powered chatbot that provides restaurant recommendations based on user pre
 ├── lambda-functions/   # LF0, LF1, LF2 Lambda code
 └── other-scripts/      # Yelp scraping and OpenSearch loading scripts
 ```
+
+## Built with Claude
+
+I built this project in collaboration with Claude. I used it to:
+
+- Write the Yelp scraping script that collected 1,377 restaurants across cuisines.
+- Debug integration issues across the AWS services (Lambda, Lex, SQS, OpenSearch, SES).
+- Refine and clean up code as the architecture came together.
+
+Claude sped up the work, but I designed the architecture, chose the services and made the integration decisions.
